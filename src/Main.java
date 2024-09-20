@@ -43,6 +43,8 @@ public class Main {
 
         System.out.println(libro2);
 
+        Double contador = biblioteService.calcularPrecios(biblioteca);
 
+        System.out.println(contador);
     }
 }
